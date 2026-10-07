@@ -1,9 +1,17 @@
 terraform {
+  /*cloud {
+  
+    organization = "policy-as-code-training"
+
+    workspaces {
+      name = "tf-vault-qa-jn-20261006"
+    }
+  }
   required_providers {
     aws = {
       source = "hashicorp/aws"
     }
-  }
+  }*/
 }
 
 provider "aws" {
